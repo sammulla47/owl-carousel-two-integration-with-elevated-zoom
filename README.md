@@ -1,4 +1,4 @@
 # owl-carousel-two-integration-with-elevated-zoom
 This repository showcases the integration of Owl Carousel Two with Elevated Zoom, providing an enhanced and interactive image carousel for your website.
 The topics covered in this repository revolve around the integration of Owl Carousel Two and Elevated Zoom to create an interactive image carousel for websites. Owl Carousel Two is a powerful jQuery plugin that enables the creation of beautiful and responsive slideshows with various navigation options. Elevated Zoom, on the other hand, adds advanced zoom functionality to the carousel, allowing users to zoom in on images for a closer view. By combining these two features, users can navigate through a collection of images or videos and zoom in to examine details with ease. The repository provides code examples and a demonstration of how to implement Owl Carousel Two and Elevated Zoom effectively, offering a valuable resource for web developers seeking to enhance their websites with engaging image galleries.
-<img src="fruits/Demo.png">
+<img src="../fruits/Demo.png">
