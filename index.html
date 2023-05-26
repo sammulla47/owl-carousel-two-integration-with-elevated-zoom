@@ -276,7 +276,14 @@
 		// Initialize Elevate Zoom on the first slide image
 		var initialImage = $(".main-carousel .item").eq(0).find("img");
 		zoom(initialImage, "window", "crosshair");
-	</script>
+		
+		
+		var child = document.querySelector('.zoomLens');
+		var partens = document.querySelector('.zoomContainer');
+		child.addEventListener('mouseover', function() {
+  		parent.style.backgroundColor = '#00000030';
+		});
+		</script>
 
 
 </body>
