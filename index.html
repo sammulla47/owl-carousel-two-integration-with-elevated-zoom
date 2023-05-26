@@ -1,1 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<style>
+		* {
+			font-family: Poppins;
+		}
+
+		.main-carousel .item img {
+			width: 80% !important;
+			height: 630px;
+			cursor: all-scroll;
+			position: relative;
+			float: right;
+			border: 2px solid #c9c9c9;
+		}
+
+		.main-carousel .owl-carousel .owl-item {
+			min-height: 1px;
+			float: right;
+			-webkit-backface-visibility: hidden;
+			-webkit-touch-callout: none;
+			max-width: 80% !important;
+		}
+
+		.main-carousel .owl-dots .owl-dot span {
+			background: none;
+			border: none;
+			height: auto;
+			width: auto;
+			padding: 0;
+		}
+
+		.main-carousel .owl-dots .owl-dot span img {
+			width: 100%;
+			height: auto;
+			border: 2px solid #999;
+			cursor: pointer;
+		}
+
+		.main-carousel .owl-dots {
+			width: 100px;
+			max-height: 630px;
+			position: absolute;
+			top: 0%;
+			left: 0;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+
+		.main-carousel .owl-dots img {
+			width: 100%;
+			height: 130px;
+			margin-bottom: 10px;
+			border: 2px solid #6c757d;
+			border-radius: 5%;
+		}
+
+		.main-carousel .owl-item .item iframe {
+			width: 80%;
+			height: 630px;
+			position: relative;
+			float: right;
+			border: 2px solid #c9c9c9;
+		}
+
+		.zoomContainer {
+			z-index: 9999;
+    		width: 150px !important;
+    		height: 150px !important;
+    		border-radius: 50% !important;
+		}
+		.zoomLens {
+    		width: 150px !important;
+    		height: 150px !important;
+		}
+		.main-carousel .owl-dots::-webkit-scrollbar {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="row gx-0 my-5 justify-content-around">
+		<div class="col-md-5">
+			<div id="slider" class="main-carousel owl-carousel positive-relative">
+				<div class="item">
+					<img src="fruits/images-01.png" alt="Fruits Images 1">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-02.png" alt="Fruits Images 2">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-03.png" alt="Fruits Images 3">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-04.png" alt="Fruits Images 4">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-05.png" alt="Fruits Images 5">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-06.png" alt="Fruits Images 6">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-07.png" alt="Fruits Images 7">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-08.png" alt="Fruits Images 8">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-09.png" alt="Fruits Images 9">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-10.png" alt="Fruits Images 10">
+				</div>
+
+				<div class="item">
+					<img src="fruits/images-11.png" alt="Fruits Images 11">
+				</div>
+				<div class="item">
+					<iframe width="100%" src="https://www.youtube.com/embed/YFZUVhBO188" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<div class="product-details my-2">
+				<h1 class="card-title display-4 mb-4">Owl Carousel Two Integration With Elevated Zoom</h1>
+				<p class="card-text fs-5">This product is a great way to enhance your website with Owl Carousel Two and Elevated Zoom. It provides a seamless integration and offers advanced zoom functionality for your carousel images.</p>
+				<div class="rating">
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<i class="fas fa-star text-warning"></i>
+					<span class="rating-count">(100+ reviews)</span>
+				</div>
+				<div class="price mt-3">
+					<span class="new-price text-black fw-bold fs-5">&#8377;19.99</span>
+					<span class="old-price text-muted fs-6 text-decoration-line-through">&#8377;29.99</span>
+					<span class="discount text-danger">Save 35%</span>
+				</div>
+				<div class="quantity mt-3">
+					<label for="quantity">Quantity:</label>
+					<input type="number" id="quantity" name="quantity" min="1" value="1">
+				</div>
+				<div class="d-flex justify-content-start buttons my-4">
+					<a href="#" class="btn btn-primary btn-lg px-5 py-2 me-5" style="background-color: yellow;">Add to Cart</a>
+					<a href="#" class="btn btn-success btn-lg  px-5 py-2" style="background-color: green;">Buy Now</a>
+				</div>
+				<a href="#" class="btn btn-light"><i class="fas fa-share-alt"></i> Share</a>
+			</div>
+		</div>
+
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			var mainCarousel = $(".main-carousel");
+			var thumbnailCarousel = mainCarousel.owlCarousel({
+				items: 1,
+				nav: false,
+				dots: true,
+				dotsData: true,
+			});
+
+			// Retrieve the dot elements
+			var dots = $(".main-carousel .owl-dot");
+
+			// Set the thumbnail images for each dot
+			dots.each(function(index) {
+				var dot = $(this);
+				var slideImage = $(".main-carousel .item").eq(index).find("img").attr("src");
+
+				if (typeof slideImage === "undefined") {
+					slideImage = "img/products-images/youtube.png";
+				}
+
+				var thumbnailImage = "<img src='" + slideImage + "' alt='Thumbnail'>";
+				dot.html(thumbnailImage); // Set the image directly
+
+				// Check if the slide contains an iframe
+				var slide = $(".main-carousel .item").eq(index);
+				var owlDot = slide.find(".owl-dot");
+				var owlDotImg = owlDot.find("img");
+
+				// Check if owl-dot img src is undefined
+				if (typeof owlDotImg.attr("src") === "undefined") {
+					// Remove the owl-dot image element
+					owlDotImg.parent().remove();
+
+					// Add YouTube play button image overlay
+					var playButtonImage = "<img src='./fruits/youtube.png' class='play-button' alt='Play Button'>";
+					owlDot.append(playButtonImage);
+				}
+
+				// Bind click event to dot
+				dot.on("click", function() {
+					console.log("Dot clicked:", dot.index());
+
+					// Go to the corresponding slide
+					mainCarousel.trigger("to.owl.carousel", index);
+				});
+			});
+
+			// Update main carousel on slide change
+			mainCarousel.on("changed.owl.carousel", function(event) {
+				var currentIndex = event.item.index;
+				console.log("Current slide index:", currentIndex);
+
+				// Remove previous Elevate Zoom instance
+				$(".zoomContainer").remove();
+
+				// Initialize Elevate Zoom on the current slide image
+				var currentSlide = $(".main-carousel .item").eq(currentIndex);
+				var currentImage = currentSlide.find("img");
+				zoom(currentImage, "window", "crosshair");
+
+			});
+
+			// Initialize Elevate Zoom on the first slide image
+			var initialImage = $(".main-carousel .item").eq(0).find("img");
+			zoom(initialImage, "window", "crosshair");
+		});
+
+		// Function to initialize Elevate Zoom
+		function zoom(element, zoomType, cursorType) {
+			element.elevateZoom({
+				zoomType: zoomType,
+				cursor: cursorType,
+				gallery: "slider",
+				zoomWindowWidth: 400,
+				zoomWindowHeight: 400,
+				borderSize: 1,
+				borderColor: "#888",
+				lensBorderSize: 1,
+				lensBorderColor: "#888",
+				cursorZoom: true,
+				scrollZoom: true,
+				containLensZoom: true,
+				lensShape: "round",
+				lensSize: 200,
+				lensOpacity: 0.4, // Set the lens opacity
+				lensColor: "#00000" // Set the lens color
+			})
+		}
+
+		// Initialize Elevate Zoom on the current slide image
+		var currentSlide = $(".main-carousel .item").eq(currentIndex);
+		var currentImage = currentSlide.find("img");
+		zoom(currentImage, "window", "crosshair");
+		// Initialize Elevate Zoom on the first slide image
+		var initialImage = $(".main-carousel .item").eq(0).find("img");
+		zoom(initialImage, "window", "crosshair");
+		
+		
+		var child = document.querySelector('.zoomLens');
+		var parent = document.querySelector('.zoomContainer');
+		child.addEventListener('mouseover', function() {
+  		parent.style.backgroundColor = '#00000030';
+		});
+		</script>
+
+
+</body>
+
+</html>
 
