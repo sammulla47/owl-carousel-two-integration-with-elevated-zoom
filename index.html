@@ -87,6 +87,18 @@
 		.main-carousel .owl-dots::-webkit-scrollbar {
 			display: none;
 		}
+		@media only screen and (max-width: 600px) { 
+		.main-carousel .owl-item .item iframe {
+			width: 100%;
+			height: 300px;
+			position: relative;
+			float: right;
+			border: 2px solid #c9c9c9;
+		}	
+		.main-carousel .owl-dots img {
+			display: none;
+		}
+		}
 	</style>
 </head>
 
@@ -283,7 +295,7 @@
 		child.addEventListener('mouseover', function() {
   		parent.style.backgroundColor = '#00000030';
 		});
-		</script>
+	</script>
 
 
 </body>
