@@ -236,7 +236,7 @@
             0: {
               items: 1,
               dots: true,
-          dotsData: true,
+              dotsData: true,
               loop: true,
               autoplay: true,
               autoplayTimeout: 8000,
@@ -346,6 +346,15 @@
       var parent = document.querySelector(".zoomContainer");
       child.addEventListener("mouseover", function () {
         parent.style.backgroundColor = "#00000030";
+      });
+	  // Alert For Small Device
+      window.addEventListener("resize", function () {
+        var alertMessage = document.getElementById("alertMessage");
+        if (window.innerWidth <= 767) {
+          alertMessage.style.display = "block"; // show the alert message when the window width is less than or equal to 767px
+        } else {
+          alertMessage.style.display = "none"; // hide the alert message for larger screen sizes
+        }
       });
     </script>
   </body>
