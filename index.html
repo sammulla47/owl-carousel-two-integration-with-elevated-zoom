@@ -14,18 +14,6 @@
 	* {
 		font-family: Poppins;
 	}
-	@media only screen and (max-width : 767px) { 
-	.main-carousel .item img {
-		width: 100% !important;
-		height: 300px;
-		position: relative;
-		float: right;
-		border: 2px solid #c9c9c9;
-	}	
-	.main-carousel .owl-dots img {
-		display: none;
-	}
-	}
 	.main-carousel .item img {
 		width: 80% !important;
 		height: 630px;
@@ -97,7 +85,18 @@
 	.main-carousel .owl-dots::-webkit-scrollbar {
 		display: none;
 	}
-	
+	@media only screen and (max-width : 767px) { 
+	.main-carousel .item img {
+		width: 100% !important;
+		height: 300px;
+		position: relative;
+		float: right;
+		border: 2px solid #c9c9c9;
+	}	
+	.main-carousel .owl-dots img {
+		display: none;
+	}
+	}
 </style>
 </head>
 <body>
